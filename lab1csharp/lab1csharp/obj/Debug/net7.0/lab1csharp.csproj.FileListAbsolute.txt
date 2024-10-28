@@ -1,0 +1,15 @@
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/obj/Debug/net7.0/lab1csharp.csproj.AssemblyReference.cache
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/obj/Debug/net7.0/lab1csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/obj/Debug/net7.0/lab1csharp.AssemblyInfoInputs.cache
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/obj/Debug/net7.0/lab1csharp.AssemblyInfo.cs
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/obj/Debug/net7.0/lab1csharp.csproj.CoreCompileInputs.cache
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/bin/Debug/net7.0/lab1csharp
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/bin/Debug/net7.0/lab1csharp.deps.json
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/bin/Debug/net7.0/lab1csharp.runtimeconfig.json
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/bin/Debug/net7.0/lab1csharp.dll
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/bin/Debug/net7.0/lab1csharp.pdb
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/obj/Debug/net7.0/lab1csharp.dll
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/obj/Debug/net7.0/refint/lab1csharp.dll
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/obj/Debug/net7.0/lab1csharp.pdb
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/obj/Debug/net7.0/lab1csharp.genruntimeconfig.cache
+/Users/evgenijturskov/Desktop/вуз/3 семестр/ПКиЯП/lab1csharp/lab1csharp/obj/Debug/net7.0/ref/lab1csharp.dll
