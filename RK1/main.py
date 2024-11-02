@@ -29,13 +29,14 @@ class GroupCourse:
         self.group_id = group_id
         self.course_id = course_id
 
-
 # Студенческие группы
 groups = [
     StudentGroup(1, 'Группа ИТ-101'),
-    StudentGroup(2, 'Группа Матем-201'),
+    StudentGroup(2, 'Армейская Группа СВО-243'),
     StudentGroup(3, 'Группа Физ-301'),
-    StudentGroup(4, 'Армейская Группа СВО-243'),
+    StudentGroup(4, 'Группа Матем-201'),
+    StudentGroup(5, 'Астрономическая Группа 504'),
+    StudentGroup(6, 'Археологическая Группа А-102'),
 ]
 
 # Учебные курсы
@@ -46,6 +47,12 @@ courses = [
     Course(4, 'История', 80, 4),
     Course(5, 'Изучение языков', 88, 2),
     Course(6, 'Философия', 93, 3),
+    Course(7, 'Экономический анализ', 87, 5),
+    Course(8, 'Введение в биологию', 76, 6),
+    Course(9, 'Эволюция', 84, 1),
+    Course(10, 'Инвестирование', 92, 2),
+    Course(11, 'Теория алгоритмов', 89, 3),
+    Course(12, 'Статистика данных', 78, 4),
 ]
 
 # Связи многие-ко-многим
@@ -58,6 +65,14 @@ groups_courses = [
     GroupCourse(3, 6),
     GroupCourse(4, 6),
     GroupCourse(3, 1),
+    GroupCourse(5, 7),
+    GroupCourse(6, 8),
+    GroupCourse(1, 9),
+    GroupCourse(2, 10),
+    GroupCourse(3, 11),
+    GroupCourse(4, 12),
+    GroupCourse(5, 6),
+    GroupCourse(6, 11),
 ]
 
 
@@ -82,7 +97,7 @@ def main():
 
     print('Запрос Д1')
     res_d1 = [(title, group_name) for title, avg_grade, group_name in one_to_many if title.endswith("ов")]
-    print(res_d1)
+    print("".join(map(lambda x: x[0] + " - " + x[1] + "\n", res_d1)))
 
     print('\nЗапрос Д2')
     res_d2_unsorted = []
@@ -94,7 +109,7 @@ def main():
             res_d2_unsorted.append((g.name, g_avg_grade))
 
     res_d2 = sorted(res_d2_unsorted, key=itemgetter(1), reverse=True)
-    print(res_d2)
+    print("".join(map(lambda x: x[0] + " - " + str(x[1]) + "\n", res_d2)))
 
     print('\nЗапрос Д3')
     res_d3 = {}
@@ -104,7 +119,7 @@ def main():
             g_courses_titles = [x for x, _, _ in g_courses]
             res_d3[g.name] = g_courses_titles
 
-    print(res_d3)
+    print("".join(map(lambda x: x + ": " + ", ".join(res_d3[x]) + '\n', res_d3)))
 
 
 if __name__ == '__main__':
